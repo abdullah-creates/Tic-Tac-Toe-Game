@@ -19,7 +19,7 @@ html,body{
 h1{
     text-align: center;
     margin-top: 2vw;
-    color: #a4b884;
+    color: #7575af;
 }
 
 span{
@@ -27,14 +27,14 @@ span{
 }
 
 span:hover{
-    color: #a4b884;
+    color: #7575af;
 }
 
 .container{
     margin: 1.5vw auto;
     height: 37vw;
     width: 37.2vw;
-    background-color: #a4b884;
+    background: linear-gradient(to right, #795858, #7575af);
     position: relative;
     display: flex;
     border-radius: 5px;
@@ -54,7 +54,7 @@ span:hover{
 }
 
 .box-1:hover,.box-2:hover,.box-3:hover,.box-4:hover,.box-5:hover,.box-6:hover,.box-7:hover,.box-8:hover,.box-9:hover{
-    background-color: #7b9063;;
+    background: linear-gradient(to right, #807e7e, #dddde8);
 }
 
 @media (max-width: 500px) {
