@@ -1,0 +1,73 @@
+@font-face {
+    font-family: poppins;
+    src: url(../fonts/Poppins/Poppins-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    font-family: poppins;
+}
+
+h1{
+    text-align: center;
+    margin-top: 2vw;
+    color: #a4b884;
+}
+
+span{
+    color: #fff;
+}
+
+span:hover{
+    color: #a4b884;
+}
+
+.container{
+    margin: 1.5vw auto;
+    height: 37vw;
+    width: 37.2vw;
+    background-color: #a4b884;
+    position: relative;
+    display: flex;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.box-1,.box-2,.box-3,.box-4,.box-5,.box-6,.box-7,.box-8,.box-9{
+    background-color: white;
+    height: 10vw;
+    width: 10vw;
+    margin: 1.2vw;
+    border-radius: 5px;
+    margin-bottom: 1.9vw;
+    font-size: 7vw;
+    text-align: center;
+    padding-bottom: 2vw;
+}
+
+.box-1:hover,.box-2:hover,.box-3:hover,.box-4:hover,.box-5:hover,.box-6:hover,.box-7:hover,.box-8:hover,.box-9:hover{
+    background-color: #7b9063;;
+}
+
+@media (max-width: 500px) {
+    .container{
+        height: 69vw;
+        width: 69vw;
+        margin-top: 35vw;
+    }
+
+    .box-1,.box-2,.box-3,.box-4,.box-5,.box-6,.box-7,.box-8,.box-9{
+        height: 20.5vw;
+        width: 20.5vw;
+        font-size: 15vw;
+        text-align: center;
+    }
+}
